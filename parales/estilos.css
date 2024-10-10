@@ -1,0 +1,124 @@
+body {
+    background-image: url(https://unaideaunviaje.com/wp-content/uploads/2013/04/donde-como-cuando-ver-auroras-boreales-noruega-tromso-unaideaunviaje-02-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Color de texto más suave */
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+  background-color: rgb(36, 36, 179);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255); /* Espaciado alrededor del título */
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Fonts google*/
+  font-size: 2.5em; /* Tamaño de fuente más grande */
+  position: sticky; /* Hacer que el encabezado sea sticky */
+  top: 0; /* Mantenerlo en la parte superior */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+    display: flex;/* Cambia a columna para mejor orden */
+    justify-content: center;
+    align-items: center; /* Centra los elementos */
+    
+}
+
+
+  .auroras{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding-left: 105px;
+  }
+
+  .auro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding-left: 105px;
+  }
+
+
+  .tai {
+    margin: 30px; 
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 20px; /* Espaciado interno */
+    max-width: 300px;
+    box-shadow: 0 4px 15px rgba(14, 10, 10, 0.1); /* Sombra para profundidad */
+  }
+
+
+.video {
+    margin: 20px;
+}
+
+
+.oferta{
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+
+}
+
+.derecha{
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+
+}
+
+
+form {  
+  display: grid;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 50px;
+  width: 530px;
+}
+
+label {
+    display: block; /* Muestra las etiquetas en una nueva línea */
+    margin: 10px 0 5px; /* Espaciado de etiquetas */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 60%; /* Ancho completo para los campos de entrada */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espaciado entre campos */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.boton {
+    background-color: lightblue;
+    width: 120px;
+    height: 40px;
+    border: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: initial; /* Transición suave */
+    margin-bottom: 10px;
+    
+}
+
+.boton:hover {
+    background-color: rgb(0, 185, 56);
+    color: rgb(255, 255, 255);
+}

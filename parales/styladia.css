@@ -1,0 +1,98 @@
+body {
+    background-image: url(https://th.bing.com/th/id/OIP._asZMGldSXxNWGbYYjzd8gHaEn?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Color de texto más suave */
+}
+
+.titulo {
+  text-align: center;
+  color: black; /* Espaciado alrededor del título */
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Fonts google*/
+
+  font-size: 2.5em; /* Tamaño de fuente más grande */
+}
+
+.contenedor {
+    display: flex;/* Cambia a columna para mejor orden */
+    align-items: center; /* Centra los elementos */
+    padding: 20px;
+}
+
+
+.caja {
+    margin: 20px; 
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 20px; /* Espaciado interno */
+    max-width: 300px;
+    max-height: 300px; /* Limitar el ancho máximo */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    width: 300px;
+    height: 300px;
+  }
+
+.video {
+    margin: 20px;
+}
+
+footer {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/004/889/non_2x/printend-of-year-sale-banner-with-copy-space-background-for-product-promotion-and-advertising-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo del footer */
+    border-top: 2px solid #ccc;
+}
+
+.oferta{
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+
+}
+
+.derecha{
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer form {  
+  display: inline-block; /* Mantener el formulario centrado */
+  background-color: aliceblue;
+  
+}
+
+label {
+    display: block; /* Muestra las etiquetas en una nueva línea */
+    margin: 10px 0 5px; /* Espaciado de etiquetas */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Ancho completo para los campos de entrada */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espaciado entre campos */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.boton {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.boton:hover {
+    background-color: brown;
+    color: white;
+}
